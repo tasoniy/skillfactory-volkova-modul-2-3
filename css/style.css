@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Roboto Italic";
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap);
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap);
+}
+
+body {
+    font-family: "Roboto Italic", sans-serif;
+    background-color: #e2e8e4;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Slab", serif;
+    color: blueviolet;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffccbb;
+    padding: 15px 50%;
+    margin: 5px;
+    border-color: palevioletred;
+    border-style: solid;
+}
+
+.work {
+    background-color: #6eb5c0;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+    border-style: solid;
+    border-color:blue;
+}
+
+.education {
+   background-color:#6eb5c0;
+   display: flex;
+   justify-content: center;
+   margin: 10px;
+   padding: 5px;
+   border-style: solid;
+   border-color:blue;
+}
+
+.face {
+    position: relative;
+    left: 1em;
+}
+
+
+.age-city {
+    display:flex;
+    justify-content: center;
+    
+}
+.nav-education {
+    background-color: #5292a0;
+    display: inline;
+    padding: 5px 5px;
+    margin-left: 550px;
+    margin-top: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.nav-work {
+    background-color: #5292a0;
+    display: inline;
+    padding: 5px 5px;
+    margin-right: 500px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.footer-wrap {
+    padding: 20px 0px;
+}
+
+a:visited {
+    color:grey;
+}
+
+li:nth-child(odd) {
+    background-color: cyan;
+}
+
+li:nth-child(even) {
+    background-color:lightpink;
+}
